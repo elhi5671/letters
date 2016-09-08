@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+
+/* Universal Styles */
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	display: table;
+	content: " ";	border: 1px solid rgba(0, 0, 0, 0.7);
+	clear: both;
+}
+
+img {
+	border: 0;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+/* page styles */
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.centerme {
+	text-align: center;
+}
+
+h1,
+p {
+	font-family: 'Kaushan Script', cursive;
+}
+
+h1 {
+	padding-top: 50px;
+	padding-bottom: 35px;
+	font-size: 4em;
+}
+
+p {
+	font-size: 2em;
+}
+
+aside {
+	padding-top: 20px;
+}
+
+.box {
+	background: rgba(255,255,255,.65);
+	border: 1px solid rgba(0, 0, 0, 0.9);
+	margin: 10px;
+	padding-bottom: 20px;
+}
+
+.box2 {
+	background: rgba(0, 0, 100, .6);
+	border: 1px solid rgba(0, 0, 0, 0.9);
+	margin: 40px;
+	padding-bottom: 30px;
+}
+
+.home {
+	background: url('../img/8_starry_night.jpg') center center fixed;
+	background-size: cover;
+	padding: 10px;
+	color: rgba(0, 0, 0, .8);
+}

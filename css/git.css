@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Shadows+Into+Light);
+
+
+
+/* Universal Styles */
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	display: table;
+	content: " ";	border: 1px solid rgba(0, 0, 0, 0.7);
+	clear: both;
+}
+
+img {
+	border: 0;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+/* page styles */
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.centerme {
+	text-align: center;
+}
+
+.home {
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.mainheader {
+	background-image: url(../img/romantic_couple.jpg);
+}
+
+.footer {
+	background-image: url(../img/romantic_couple.jpg);
+	color: rgba(255, 255, 255, .7);
+}
+
+.box {
+	background: rgba(255,255,255,.65);
+	border: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+.box2 {
+	background-color: rgba(113, 18, 62, .9);
+	margin: 30px;
+	padding-bottom: 20px;
+}
+
+h1 {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 4.5em;
+	font-family: 'Shadows Into Light', cursive;
+	color: rgba(255, 255, 255, .7);
+}
+
+p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 2.5em;
+	font-family: 'Amatic SC', cursive;
+}
+
+aside {
+	padding-top: 20px;
+}

@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	display: table;
+	content: " ";	border: 1px solid rgba(0, 0, 0, 0.7);
+	clear: both;
+}
+
+img {
+	border: 0;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+/* page styles */
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.centerme {
+	text-align: center;
+}
+
+.home {
+	font-family: 'Permanent Marker', cursive;
+	background-image: url(../img/broken_hearts.jpg);
+}
+
+ul {
+	list-style-type: none;
+	font-size: 1.8em;
+	padding-bottom: 20px;
+}
+
+h1 {
+	font-size: 5em;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+h2 {
+	font-size: 3.7em;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+p {
+	font-size: 2.4em;
+	padding: 20px;
+}
+
+aside {
+	font-size: 2.2em;
+}
+
+.mainheader {
+	background-color: rgba(255, 105, 180, .9);
+}
+
+.intro {
+	background-color: rgba(255, 192, 203, .9);
+}
+
+.howto {
+	background-color: rgba(255, 105, 180, .9);
+	margin-top: 25px;
+}
+
+.footer {
+	background-color: rgba(255, 192, 203, .9);
+	margin-top: 25px;
+	padding-bottom: 10px;
+}
